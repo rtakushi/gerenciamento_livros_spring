@@ -21,7 +21,7 @@ public class LivroService {
         return repository.findAll();
     }
 
-    public Optional<Livros> buscarPorID(Long id){
+    public Optional<Livros> buscarPorId(Long id){
         return repository.findById(id);
     }
 
